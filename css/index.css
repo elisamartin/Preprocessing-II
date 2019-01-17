@@ -167,6 +167,12 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 2%;
+}
+@media (max-width: 800px) {
+  .container {
+    padding: 0 4% 0 4%;
+  }
 }
 @media (max-width: 500px) {
   .container {
@@ -174,11 +180,12 @@ img {
   }
 }
 .navigation {
+  width: 100%;
   border-bottom: 2px dashed #c0c0c0;
-  padding: 20px 0;
+  padding: 1% 10%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: baseline;
 }
 .navigation nav {
@@ -275,6 +282,14 @@ img {
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
+}
+@media (max-width: 800px) {
+  .home .content-destination {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 @media (max-width: 500px) {
   .home .content-destination {
