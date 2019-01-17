@@ -330,3 +330,10 @@ img {
   border-radius: 12px;
   padding: 12px;
 }
+form {
+  width: 50%;
+  padding: 10% 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
